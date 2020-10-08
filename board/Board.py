@@ -18,7 +18,7 @@ class Board:
     HEIGHT = 8
 
     def __init__(self):
-        self.board = self.__create_board()
+        self.board = [[Tile(i, j) for j in range(Board.WIDTH)] for i in range(Board.HEIGHT)]
 
     def __repr__(self) -> str:
         board = ''
@@ -28,15 +28,6 @@ class Board:
 
     def __getitem__(self, index: int) -> List[Tile]:
         return self.board[index]
-
-    # Creating the board and initializing it with empty tiles
-    def __create_board(self) -> List[List[Tile]]:
-        board = []
-        for i in range(Board.WIDTH):
-            board.append([])
-            for j in range(Board.HEIGHT):
-                board[i].append(Tile(j, i))
-        return board
 
     # Filling the board with the pieces in their starting positions
     def fill(self):

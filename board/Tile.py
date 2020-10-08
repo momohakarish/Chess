@@ -9,7 +9,6 @@ class Tile:
         self.x = x
         self.y = y
         self.piece = piece      # If tile is empty then the piece is None
-        self.attacked = False
 
     def __repr__(self) -> str:
         if self.piece is None:

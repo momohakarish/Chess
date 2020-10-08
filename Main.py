@@ -64,6 +64,5 @@ clock = pygame.time.Clock()     # FPS clock
 
 # Starting the game
 main()
-test()
 
 
