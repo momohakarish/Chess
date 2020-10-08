@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b559a09-4caf-4f14-ac9c-614540d0bcaa" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/Tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/Tile.py" afterDir="false" />
-    </list>
+    <list default="true" id="0b559a09-4caf-4f14-ac9c-614540d0bcaa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +169,13 @@
       <option name="presentableId" value="Default" />
       <updated>1594934497234</updated>
     </task>
+    <task id="LOCAL‎00001" summary="Test">
+      <created>1602161032018</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1602161032018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
